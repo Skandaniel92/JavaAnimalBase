@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class AnimalBase {
 
     private ArrayList<Animal> animals;
+    //test
 
     public AnimalBase() {
         animals = new ArrayList<>();
