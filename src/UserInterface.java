@@ -158,13 +158,13 @@ public class UserInterface {
         }
     }
 
-    private void load() throws FileNotFoundException {
+    private void load() {
         System.out.println("Loading the database ...");
         application.loadDatabase();
         System.out.println("Done!");
     }
 
-    private void save() throws FileNotFoundException {
+    private void save() {
         System.out.println("Saving the database ...");
         application.saveDatabase();
         System.out.println("Saving database completed succesfully");
